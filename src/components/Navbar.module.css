@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #171526;
+  padding: 22px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-bottom: 2px solid #8b5cf6;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #a78bfa;
+  margin-left: 5px;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: #c9c5d8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu a:hover,
+.menu a.active {
+  color: #a78bfa;
+}

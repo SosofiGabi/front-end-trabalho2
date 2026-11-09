@@ -1,0 +1,17 @@
+.pagina {
+  color: white;
+}
+
+.pagina h1 {
+  color: #c4b5fd;
+  margin-bottom: 12px;
+}
+
+.pagina p {
+  color: #c9c5d8;
+}
+
+.vazio {
+  text-align: center;
+  padding: 40px;
+}

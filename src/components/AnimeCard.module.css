@@ -1,0 +1,57 @@
+.card {
+  background: #211d35;
+  border: 1px solid #514078;
+  border-radius: 15px;
+  overflow: hidden;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #a78bfa;
+}
+
+.imagem {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.informacoes {
+  padding: 18px;
+}
+
+.informacoes h2 {
+  color: #c4b5fd;
+  margin-bottom: 12px;
+}
+
+.informacoes p {
+  margin: 10px 0;
+  color: #d1cde0;
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.acoes button {
+  border: none;
+  padding: 9px 12px;
+  border-radius: 7px;
+  background: #8b5cf6;
+  color: white;
+  cursor: pointer;
+}
+
+.acoes button:hover {
+  background: #a78bfa;
+}
+
+.acoes .excluir {
+  background: #991b1b;
+}

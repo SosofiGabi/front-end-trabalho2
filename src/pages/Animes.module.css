@@ -1,0 +1,17 @@
+.pagina {
+  color: white;
+}
+
+.pagina h1 {
+  color: #c4b5fd;
+  margin-bottom: 10px;
+}
+
+.pagina p {
+  color: #c9c5d8;
+}
+
+.tituloLista {
+  color: #c4b5fd;
+  margin: 35px 0 20px;
+}

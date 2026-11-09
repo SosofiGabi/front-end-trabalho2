@@ -1,0 +1,21 @@
+.erro {
+  text-align: center;
+  color: white;
+  padding: 60px 10px;
+}
+
+.erro h1 {
+  font-size: 90px;
+  color: #a78bfa;
+  margin: 0;
+}
+
+.erro a {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  background: #8b5cf6;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
